@@ -11,7 +11,7 @@ impl Add for Rat {
     type Output = Self;
 
     fn add(self, rhs: Self) -> Self::Output {
-        let num = self.num * rhs.den as i32 + self.den as i32 * rhs.num;
+        let num = self.num * rhs.den + self.den * rhs.num;
         let den = self.den * rhs.den;
         let gcd = gcd(num.unsigned_abs(), den.unsigned_abs()) as i32;
         Rat {
