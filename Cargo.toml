@@ -1,6 +1,12 @@
 [package]
-name = "ruut_algebra"
+name = "ruut-algebra"
+author = "Ludovico Furlanetto"
+description = "An incredibly minimal linear algebra crate meant to be used for ruut-functions"
+license = "MIT"
+repository="https://github.com/LudovicoLudovico/ruut_algebra"
+keyword=""
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
+
+
